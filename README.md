@@ -26,15 +26,23 @@ Both $SL$, and $TPSL_{ratio}$ will be optomized.
 ### Bollinger Bands
 Bollinger bands are a simple calculation used in technical analysis to make assumption about the nature/future of a stock price.  The band is created by addind and subtracting $2*\sigma$ to the Simple Moving Average (SMA).  
 
-$BOLU=MA(TP,n)+m∗\sigma[TP,n]$
-$BOLD=MA(TP,n)−m∗\sigma[TP,n]$
+$$BOLU=MA(TP,n)+m∗\sigma[TP,n]$$
+$$BOLD=MA(TP,n)−m∗\sigma[TP,n]$$
+
 where:
+
 BOLU=Upper Bollinger Band
+
 BOLD=Lower Bollinger Band
+
 MA=Moving average
+
 TP (typical price)=(High+Low+Close)÷3
+
 n=Number of days in smoothing period (typically 20)
+
 m=Number of standard deviations (typically 2)
+
 $\sigma[TP,n]$=Standard Deviation over last n periods of TP
 
 Traders interpret Bollinger bands a signal that a stock is overbought/oversold if the price falls outside of the band range. When intially conceptualized, John Bollinger introduced 22 rules to follow when using the bands.  The details as presented by Investopedia can be found (HERE)[https://www.investopedia.com/articles/technical/102201.asp]. 
