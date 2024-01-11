@@ -95,7 +95,7 @@ The true range indicator is taken as the greatest of the following: current high
 # Results
 Using an optomizer (basically a gridsearch) of Stop loss coefficients, we calculate the optimal SL and TPSL_ratio coefs to be 1.2, and 2, respectively.  The backtesting algo with these coefs produces a 61.5% return.
 
-![Heatmap](coef heatmap.png)
+![Heatmap]('coef heatmap.png')
 
 ![Backtest data](results.png)
 
