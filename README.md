@@ -90,3 +90,13 @@ The true range indicator is taken as the greatest of the following: current high
 [CodeTrading Youtube](https://www.youtube.com/watch?v=IfoZaCGTJ_Q&t=434s)
 
 [Backtesting.py](https://kernc.github.io/backtesting.py/)
+
+---
+# Results
+Using an optomizer (basically a gridsearch) of Stop loss coefficients, we calculate the optimal SL and TPSL_ratio coefs to be 1.2, and 2, respectively.  The backtesting algo with these coefs produces a 61.5% return.
+
+!(Heatmap)[coef heatmap.png]
+
+!(Backtest data)[results.png]
+
+
