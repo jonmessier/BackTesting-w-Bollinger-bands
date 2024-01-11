@@ -51,10 +51,15 @@ Traders interpret Bollinger bands a signal that a stock is overbought/oversold i
 The EMA is a type of moving average that puts greater weight on the most recent data points.  
 
 $$EMA_{today} = (Value_{today} * \frac{Smoothing}{1+Days}) + EMA_{yesterday}*(1-\frac{Smoothing}{1+Days})$$
+
 where:
+
 $EMA = Closing price x multiplier + EMA (previous day) x (1-multiplier)$
+
 $multiplier = \frac{2}{(n +1)}$
+
 n = number of observations
+
 Smoothing = 2, typically
 
 
@@ -67,9 +72,13 @@ standard number of periods is 14 days
 $$RSI_{steptwo} = 100 - [\frac{100}{1+\frac{(PAG*13)+CG}{((PAL*13)+CL)}$$
 
 where:
+
 PAG - Previous Average Gain
+
 PAL - Previous Average Loss
+
 CG - Current Gain
+
 CL - Current Loss
 
 Typically an RSI > 70 indicates over bought, and RSI < 30 indicates over sold
